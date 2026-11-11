@@ -1,0 +1,33 @@
+
+// WHN - Western Hacker News
+
+// Welcome message
+console.log("Welcome to WHN - Western Hacker News!");
+
+// Explore News button
+function showMessage() {
+    alert("Welcome to Western Hacker News!");
+}
+
+// Mobile navigation
+const navLinks = document.querySelectorAll("nav a");
+
+navLinks.forEach(function(link) {
+    link.addEventListener("click", function() {
+        console.log("You selected: " + link.textContent);
+    });
+});
+
+// Current year
+const footer = document.querySelector("footer p");
+
+if (footer) {
+    footer.textContent =
+        "© " + new Date().getFullYear() +
+        " WHN - Western Hacker News. All Rights Reserved.";
+}
+
+// Page loaded message
+window.addEventListener("load", function() {
+    console.log("WHN website loaded successfully!");
+});
