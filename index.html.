@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WHN - Western Hacker News</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>WHN</h1>
+    <p>Western Hacker News</p>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Cybersecurity</a>
+      <a href="#">AI Security</a>
+      <a href="#">Technology</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Welcome to WHN</h2>
+    <p>Your Source for Cybersecurity News.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
